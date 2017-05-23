@@ -188,7 +188,7 @@ open class SKZoomingScrollView: UIScrollView {
             // image
             photoImageView.image = image
             photoImageView.contentMode = photo.contentMode
-            photoImageView.backgroundColor = SKPhotoBrowserOptions.backgroundColor
+            photoImageView.backgroundColor = .clear
             
             var photoImageViewFrame = CGRect.zero
             photoImageViewFrame.origin = CGPoint.zero
